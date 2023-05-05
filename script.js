@@ -1312,7 +1312,7 @@ sortNameDescBtn.addEventListener("click", () => {
 
 // Event listener for sort by marks button
 sortMarksBtn.addEventListener("click", () => {
-  sortedStudents.sort((a, b) => b.marks - a.marks);
+  sortedStudents.sort((a, b) => a.marks - b.marks);
   renderStudents();
 });
 
